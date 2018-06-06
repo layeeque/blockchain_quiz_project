@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" style="font-size: 30px;font-weight: bold;color:grey" href="#">Blockchain Test</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#!login">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#!test">Test</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#!">Abort</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 style="text-align: center;padding:1%;color:grey">Test</h2>
+  <form ng-submit="submitAns()">
+
+    <table class="table table-striped">
+      <tr ng-repeat="q in questions">
+
+        <td style="width:85%">{{q.question}}
+
+          <ol type="A">
+            <li> {{q.Options[0].A}}</li>
+            <li> {{q.Options[0].B}}</li>
+            <li> {{q.Options[0].C}}</li>
+            <li>{{q.Options[0].D}}</li>
+            </ul>
+
+
+
+
+        </td>
+        <!-- {{getid(q.id)}} -->
+        <td style="font-weight: bolder;font-size:larger">
+
+          A:
+          <input type="radio" value="A" ng-model="q.ans" /> &nbsp;&nbsp;&nbsp; B:
+          <input type="radio" value="B" ng-model="q.ans" /> &nbsp;&nbsp;&nbsp; C:
+          <input type="radio" value="C" ng-model="q.ans" />&nbsp;&nbsp;&nbsp; D:
+          <input type="radio" value="D" ng-model="q.ans" />&nbsp;&nbsp;&nbsp;
+        </td>
+
+      </tr>
+
+
+    </table>
+
+    <div class="row" style="padding-top:1% ;padding-bottom: 3%">
+      <div class="col-md-5"></div>
+      <div class="col-sm-1  col-md-1 " >
+        <button type="submit" class="Rbutton">
+          <span class="save">Submit the Test</span>
+        </button>
+      </div>
+      <div class="col-md-5"></div>
+    </div>
+
+  </form>
+</div>

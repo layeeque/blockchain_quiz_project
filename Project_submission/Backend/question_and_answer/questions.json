@@ -1,0 +1,111 @@
+[
+
+    {
+        "id": "101",
+        "question": "A sum of money at simple interest amounts to Rs.815 in 3 years and to Rs.854 in 4 years.The sum is: ",
+
+        "Options": [{
+            "A": "650",
+            "B": "690",
+            "C": "698",
+            "D": "700"
+        }]
+    },
+    {
+        "id": "102",
+        "question": "A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9 p.c.p.a. in 5 years. What is the sum? ",
+
+        "Options": [{
+            "A": "4426.50",
+            "B": "8032.50",
+            "C": "8900",
+            "D": "8925"
+        }]
+    },
+    {
+        "id": "103",
+        "question": "How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?",
+
+        "Options": [{
+            "A": "3.5",
+            "B": "4",
+            "C": "4.5",
+            "D": "5"
+        }]
+    },
+    {
+        "id": "104",
+        "question": "An error 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is: ",
+
+        "Options": [{
+            "A": "2%",
+            "B": "2.02%",
+            "C": "4%",
+            "D": "4.04%"
+        }]
+    },
+    {
+        "id": "105",
+        "question": "The percentage increase in the area of a rectangle, if each of its sides is increased by 20% is: ",
+
+        "Options": [{
+            "A": "40%",
+            "B": "42%",
+            "C": "44%",
+            "D": "46%"
+        }]
+    },
+    {
+        "id": "106",
+        "question": " A,B and C can do a piece of work in 20,30 and 60 days respectively.In how many days can A do the work if he is assisted by B and C on every third day ? ",
+
+        "Options": [{
+            "A": "12",
+            "B": "15",
+            "C": "16",
+            "D": "18"
+        }]
+    }, {
+        "id": "107",
+        "question": "Which one of the following is not a prime number? ",
+
+        "Options": [{
+            "A": "31",
+            "B": "61",
+            "C": "71",
+            "D": "91"
+        }]
+    }, {
+        "id": "108",
+        "question": " What least number must be added to 1056, so that the sum is completely divisible by 23 ?",
+
+        "Options": [{
+            "A": "2",
+            "B": "3",
+            "C": "18",
+            "D": "21"
+        }]
+    },
+    {
+        "id": "109",
+        "question": "The largest 4 digit number exactly divisible by 88 is: ",
+
+        "Options": [{
+            "A": "9944",
+            "B": "9768",
+            "C": "9988",
+            "D": "8888"
+        }]
+    },
+    {
+        "id": "110",
+        "question": " The sum of first five prime numbers is:",
+
+        "Options": [{
+            "A": "11",
+            "B": "18",
+            "C": "26",
+            "D": "28"
+        }]
+    }
+]
